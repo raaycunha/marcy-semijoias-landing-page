@@ -14,8 +14,7 @@ const Layout = () => {
         className="fixed top-0 left-0 z-50
         w-full
         bg-[#FAF0E5]/90
-        backdrop-blur-md
-        border-b border-[#d9c2a8]/40"
+        backdrop-blur-md"
       >
         <Container>
           <Header />

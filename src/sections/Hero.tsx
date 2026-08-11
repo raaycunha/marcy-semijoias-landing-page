@@ -28,7 +28,7 @@ const Hero = () => {
           via-[#f4dbc1]/55
           to-transparent
           min-[400px]:via-[#f4dbc1]/35
-          min-[500px]:via-[#f4dbc1]/20
+          min-[554px]:via-[#f4dbc1]/20
           md:from-[#f4dbc1]/90
           md:via-[#f4dbc1]/30
           md:to-transparent
