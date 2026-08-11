@@ -9,10 +9,10 @@ const Header = () => {
   const [toggle, setToggle] = useState<boolean>(false);
   const disabledToggle = () => setToggle(false);
   return (
-    <header className="relative flex justify-between items-center py-6 px-4 font-montserrat text-[#412918]">
+    <header className="relative flex items-center justify-between px-4 py-6 font-montserrat text-[#412918]">
       <div className="flex flex-col items-center mb-2 text-[#9F6A1B]">
         <img
-          className="pt-2 w-10 md:w-20"
+          className="pt-2 w-16 md:w-20"
           width={1200}
           height={241}
           src="images/logo-marcy.png"
@@ -21,7 +21,7 @@ const Header = () => {
       </div>
       <nav className="flex">
         <button
-          className="relative h-6 w-6 cursor-pointer md:hidden" // Adicionado tamanho fixo para o container
+          className="relative h-6 w-11 cursor-pointer md:hidden"
           onClick={() => setToggle((prev) => !prev)}
           aria-label={toggle ? "Fechar menu" : "Abrir menu"}
           aria-expanded={toggle}
