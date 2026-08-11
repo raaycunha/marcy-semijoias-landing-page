@@ -10,7 +10,13 @@ const Header = () => {
   return (
     <header className="relative flex justify-between items-center py-4 px-4 font-montserrat text-[#412918]">
       <div className="flex flex-col items-center mb-2 text-[#9F6A1B]">
-        <img className="pt-2 w-20 md:w-40" src="images/logo-marcy.png" alt="" />
+        <img
+          className="pt-2 w-20 md:w-40"
+          width={1200}
+          height={241}
+          src="images/logo-marcy.png"
+          alt="Logo Marcy Semijoias"
+        />
       </div>
       <nav className="flex">
         <button

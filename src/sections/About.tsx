@@ -3,9 +3,12 @@ const About = () => {
     <section id="sobre" className="px-3 font-montserrat mt-16 md:mt-24 md:px-8">
       <div className="relative mx-auto min-h-130 max-w-7xl overflow-hidden rounded-md bg-[#f6eee6] md:min-h-102.5">
         <img
-          src="../public/images/about-image.jpg"
+          src="/images/about-image.webp"
           alt="Joias sobre um pano"
-          className=" hidden absolute inset-0 h-full w-full object-cover object-center md:left-auto md:right-0 md:w-[58%] md:block"
+          width={1200}
+          height={675}
+          className="hidden absolute inset-0 h-full w-full object-cover object-center md:left-auto md:right-0 md:w-[58%] md:block"
+          loading="lazy"
         />
         <div
           className="

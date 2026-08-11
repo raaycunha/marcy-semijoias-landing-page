@@ -82,7 +82,10 @@ const Collections = () => {
           <div className={`${classDivImg}`}>
             <img
               className={`${classImg}`}
-              src={`/images/banner-${item.banner}.jpg`}
+              loading="lazy"
+              width={1200}
+              height={675}
+              src={`/images/banner-${item.banner}.webp`}
               alt={`Coleção ${item.name}`}
             />
             <div
