@@ -1,75 +1,68 @@
-# React + TypeScript + Vite
+# ✨ Marcy Semijoias — Elegância em Cada Detalhe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Estilo, delicadeza e sofisticação em uma experiência digital.
 
-Currently, two official plugins are available:
+A **Marcy Semijoias** é um website voltado ao segmento de semijoias e acessórios, desenvolvido com foco em **design moderno, responsividade e experiência do usuário (UX/UI)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O projeto busca proporcionar uma experiência digital elegante e intuitiva, valorizando a apresentação dos produtos e a identidade da marca por meio de uma interface organizada e visualmente agradável.
 
-## React Compiler
+🔗 **[Acessar o site](https://marcy-semijoias.vercel.app/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💎 Sobre o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+A Marcy Semijoias foi desenvolvida com a proposta de representar digitalmente uma marca de semijoias, combinando estética sofisticada, organização visual e facilidade de navegação.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+O desenvolvimento prioriza três aspectos fundamentais:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Design:** interface elegante e harmoniosa, alinhada à identidade de uma marca de semijoias.
+- **Usabilidade:** navegação intuitiva e apresentação clara das informações.
+- **Responsividade:** experiência visual pensada para diferentes dispositivos e tamanhos de tela.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛍️ Funcionalidades e Estrutura
 
-```
+O website apresenta uma experiência de navegação voltada à descoberta e à valorização de semijoias e acessórios.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Entre os principais elementos da proposta estão:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Página inicial com apresentação da marca.
+- Categorias de produtos femininos, masculinos e infantis.
+- Organização visual voltada à apresentação dos acessórios.
+- Navegação estruturada para facilitar a exploração do conteúdo.
+- Identidade visual própria e apresentação institucional.
+- Interface desenvolvida com atenção à experiência do usuário.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🎨 Identidade Visual
 
-```
+A identidade visual da Marcy Semijoias busca transmitir **elegância, delicadeza, confiança e sofisticação**.
+
+O projeto valoriza uma composição equilibrada, tipografia agradável e elementos visuais que destacam os produtos, criando uma experiência digital alinhada ao universo de joias e acessórios.
+
+## 🎯 Objetivo
+
+O principal objetivo do projeto é desenvolver uma presença digital moderna para o segmento de semijoias, aplicando conhecimentos de desenvolvimento web e design de interfaces.
+
+Durante sua construção, foram explorados conceitos relacionados a:
+
+- Desenvolvimento de interfaces web.
+- Design responsivo e organização de layouts.
+- Experiência e interface do usuário (UX/UI).
+- Hierarquia visual e apresentação de produtos.
+- Identidade visual aplicada ao comércio digital.
+
+## 🌐 Demonstração
+
+**Acesse:** https://marcy-semijoias.vercel.app/
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Ray**.
+
+**GitHub:** [@raaycunha](https://github.com/raaycunha)
+
+---
+
+<p align="center">
+  <i>✨ Marcy Semijoias — Elegância que valoriza cada detalhe.</i>
+</p>
